@@ -1,0 +1,34 @@
+# Model weights & training artifacts (too large / not meant for git)
+*.keras
+*.h5
+*.pt
+*.pth
+*_best.keras
+*_history.json
+
+# Deliverable documents — added manually at submission time only
+*.docx
+*.pdf
+
+# Datasets (never commit raw data)
+*.npz
+*.csv
+data/
+datasets/
+
+# Jupyter / Kaggle notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
