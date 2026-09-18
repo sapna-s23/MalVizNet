@@ -16,6 +16,10 @@
 data/
 datasets/
 
+# Exception: allow results/metrics CSVs
+!phase2_resolution_ablation/*.csv
+!phase1_*/*.csv
+
 # Jupyter / Kaggle notebook checkpoints
 .ipynb_checkpoints/
 
